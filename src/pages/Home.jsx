@@ -24,7 +24,7 @@ const Home = () => {
     return ()=>{
       audioRef.current.pause()
     }
-  }, [isPlayMusic])
+  }, [isPlayMusic,isRotating])
   
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
